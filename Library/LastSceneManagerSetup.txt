@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Iniciando projecto.unity
+  isLoaded: 1
+  isActive: 1
