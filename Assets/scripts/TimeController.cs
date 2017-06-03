@@ -1,14 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class TimeController : MonoBehaviour 
-{
+public class TimeController : MonoBehaviour {
+	
 	public Light sun;
-	public float secondsInFullDay = 120f;
-	[Range(0,1)]
-	public float currentTimeOfDay = 0;
-	[HideInInspector]
-	public float timeMultiplier = 1f;
+	public float secondsInFullDay = 10000f;
+	[Range(0,1)] public float currentTimeOfDay = 0;
+	[HideInInspector] public float timeMultiplier = 1f;
 
 	float sunInitialIntensity;
 
