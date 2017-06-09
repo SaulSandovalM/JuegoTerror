@@ -51,6 +51,8 @@ function Update () {
 
 	if (estado == 1){//patrullar
 		Patrullar ();
+		transform.rotation.x = 0;
+		transform.rotation.z = 0;
 	}
 
 	if (estado == 2){//perseguir

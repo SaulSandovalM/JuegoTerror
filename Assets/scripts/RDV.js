@@ -15,3 +15,8 @@ function OnTriggerEnter(other : Collider){
 		enemigo.estado = 2;
 	}
 }
+function OnTriggerExit(other : Collider){
+	if(other.gameObject.tag == ("jugador")){
+		enemigo.estado = 0;
+	}
+}
