@@ -11,11 +11,11 @@ var morir : AnimationClip;
 var atacar : AnimationClip;
 
 //valores
-var pat : float= 0;
-var patu : boolean= true;
+var pat : float = 0;
+var patu : boolean = true;
 var direccion : float = 1;
 
-//player
+//jugador
 var player : Transform;
 
 //Moviemiento
