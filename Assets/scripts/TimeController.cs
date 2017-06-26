@@ -4,7 +4,7 @@ using UnityEngine;
 public class TimeController : MonoBehaviour {
 	
 	public Light sun;
-	public float secondsInFullDay = 10000f;
+	public float secondsInFullDay = 150f;
 	[Range(0,1)] public float currentTimeOfDay = 0;
 	[HideInInspector] public float timeMultiplier = 1f;
 
